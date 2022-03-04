@@ -70,4 +70,15 @@ interface SubscriberInterface {
      */
     public function setSubscriberConfirmCode($confirmCode);
 
+    /**
+     * @param int|null $customerId
+     * @return mixed
+     */
+    public function setCustomerId(?int $customerId);
+
+    /**
+     * @return mixed
+     */
+    public function getCustomerId(): ?int;
+
 }

@@ -1,5 +1,5 @@
 {
-    "name": "albedo/module-newsletter-api",
+    "name": "wundermanprague/magento2-newsletter-api",
     "description": "REST API Layer for Magento Newsletter module.",
     "type": "magento2-module",
     "license": "OSL-3.0",
@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.4.0"
+    },
     "autoload": {
         "files": [
             "registration.php"
