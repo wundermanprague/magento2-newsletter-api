@@ -112,12 +112,12 @@ class Subscriber implements \Albedo\NewsletterApi\Api\Data\SubscriberInterface{
         $this->data = $data;
     }
 
-    public function getCustomerId()
+    public function getCustomerId(): ?int
     {
         return $this->getData('customer_id');
     }
 
-    public function setCustomerId($customerId)
+    public function setCustomerId(?int $customerId)
     {
         $this->setData('customer_id', $customerId);
     }
